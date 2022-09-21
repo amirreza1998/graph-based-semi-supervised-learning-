@@ -258,3 +258,5 @@ color = ['red' if l == 0 else 'blue' for l in Y_v]
 plt.scatter(X[0:,0], X[0:,1], color=color)
 #plt.savefig("iter_n.pdf", format='pdf')
 plt.show()
+
+"""this method have predict other sample with high accurcy Despite that all supervised labeled sample are from one class(red color) and not from another class (blue color)"""
